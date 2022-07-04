@@ -8,7 +8,7 @@ import Entry from './Entry.js';
 
 export default function App() {
 
-    const URL_BACK = "http://localhost:5000";
+    const URL_BACK = "https://projeto13-mywallet-back-main.herokuapp.com/";
 
     const [token, setToken] = useState("");
     const [name, setName] = useState("");
