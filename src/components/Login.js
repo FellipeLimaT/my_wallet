@@ -66,7 +66,7 @@ export default function Login({ setToken, URL_BACK }) {
             </form>
             {error}
             <Link to="/signUp">
-                <p>Primeira vez? Cadastre-se!</p>
+                Primeira vez? Cadastre-se!
             </Link>
         </LoginStyle>
     );

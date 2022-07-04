@@ -16,16 +16,16 @@ export default function SignUp({ URL_BACK }) {
     function signUpForm(e) {
         e.preventDefault();
 
-        if (password !== passwordConfirmation) {
-            setError(<p>As senhas devem ser iguais!</p>);
-            return;
-        }
-
         const promise = axios.post(URL_BACK + "/signUp", {
             name,
             email,
             password
         })
+        
+        if (password !== passwordConfirmation) {
+            setError(<p>As senhas devem ser iguais!</p>);
+            return;
+        }
 
         promise.then(res => {
             navigate("/login");
@@ -33,7 +33,9 @@ export default function SignUp({ URL_BACK }) {
 
         promise.catch(err => {
             if (err.response.status === 400) {
-                setError(<p>A senha deve ter no mínimo 8 dígitos!</p>);
+                setError(<p>A senha deve ter no mínimo 6 dígitos!</p>);
+                setPassword("");
+                setPasswordConfirmation("");
             } else if (err.response.status === 409) {
                 setError(<p>Esse e-mail já foi cadastrado!</p>);
             } else {
@@ -82,7 +84,7 @@ export default function SignUp({ URL_BACK }) {
             </form>
             {error}
             <Link to="/login">
-                <p>Já tem uma conta? Entre agora!</p>
+                Já tem uma conta? Entre agora!
             </Link>
         </LoginStyle>
     )

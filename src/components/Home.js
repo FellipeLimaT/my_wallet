@@ -139,12 +139,12 @@ export default function Home({ name, setEntry, setName, token, URL_BACK }) {
                 </RecordList>
                 <Balance>
                     {transactions.length ?
-                        <>
+                        <div>
                             <p className="text">SALDO</p>
                             <p className={balanceCalc("signal") + " value"}>{
                                 Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(balanceCalc("value"))
                             }</p>
-                        </>
+                        </div>
                         : <p></p>}
                 </Balance>
             </Main>
@@ -274,6 +274,13 @@ const Balance = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    & > div {
+        width: 77.6vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
     .text {
         font-size: 17px;
