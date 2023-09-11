@@ -10,7 +10,7 @@ My Wallet é um aplicativo web que permite aos usuários controlar suas finança
 
 <hr/>
 
-🔸 Backend Repository: https://github.com/FellipeLimaT/mywallet-API
+🔸 Backend Repository: https://github.com/FellipeLimaT/my_wallet_API
 
 <hr/>
 
