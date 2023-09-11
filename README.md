@@ -10,7 +10,7 @@ My Wallet é um aplicativo web que permite aos usuários controlar suas finança
 
 <hr/>
 
-🔸 Backend Repository: https://github.com/natividadesusana/my-wallet-API
+🔸 Backend Repository: https://github.com/FellipeLimaT/mywallet-API
 
 <hr/>
 
@@ -24,13 +24,13 @@ My Wallet é um aplicativo web que permite aos usuários controlar suas finança
 
 <hr/>
 
-## Motivation
+## Motivação
 
 O Projeto My Wallet foi desenvolvido para fornecer um aplicativo web que ajuda as pessoas a gerenciar suas finanças e que fosse fácil de usar. A inspiração veio da necessidade de ter uma ferramenta única que pudesse fornecer uma visão abrangente da situação financeira, incluindo um resumo de despesas, receitas e investimentos.
 
 <hr/>
 
-## Technologies
+## Tecnologias
 
 <p align='rigth'>
 <img style='margin: 2px;' src='https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB' alt='React'/>
@@ -39,4 +39,4 @@ O Projeto My Wallet foi desenvolvido para fornecer um aplicativo web que ajuda a
 <img style='margin: 2px;' src='https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white' alt='Styled-Components'/>
 </p>
   
-<hr/>
+
