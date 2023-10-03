@@ -11,6 +11,8 @@ My Wallet é um aplicativo web que permite aos usuários controlar suas finança
 <hr/>
 
 🔸 Backend Repository: https://github.com/FellipeLimaT/my_wallet_API
+🔸 Deploy: https://projeto13-mywallet-front-five-beta.vercel.app/login
+
 
 <hr/>
 
@@ -38,5 +40,25 @@ O Projeto My Wallet foi desenvolvido para fornecer um aplicativo web que ajuda a
 <img style='margin: 2px;' src='https://img.shields.io/badge/axios-800080?style=for-the-badge&logo=axios&logoColor=white' alt='Axios'/>
 <img style='margin: 2px;' src='https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white' alt='Styled-Components'/>
 </p>
+
+## Funcionamento:
+
+Para baixar e configurar o projeto, siga estas etapas:
+
+1. Clone o repositório front-end: git clone https://github.com/FellipeLimaT/my_wallet.git
+2. Clone o repositório back-end: git clone https://github.com/FellipeLimaT/my_wallet_API.git
+3. Instale as dependências para ambos os repositórios usando *npm install*
+4. Crie um arquivo *.env* na raiz do diretório back-end, contendo as seguintes variáveis:
+    `
+      MONGO_URI=<your-mongodb-uri>
+      PORT=5000
+    `
+5. Inicie o servidor backend executando npm start no diretório backend.
+6. Inicie o servidor front-end executando npm start no diretório front-end.
+7. Acesse o aplicativo em seu navegador em http://localhost:8000
+
+Nota: Este projeto requer que o MongoDB esteja instalado e em execução. Se você não o tiver instalado, siga as instruções no site (https://www.mongodb.com/try/download/community).
+
+<hr/>
   
 
