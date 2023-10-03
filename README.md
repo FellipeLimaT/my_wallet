@@ -14,7 +14,6 @@ My Wallet é um aplicativo web que permite aos usuários controlar suas finança
 
 🔸 Deploy: https://projeto13-mywallet-front-five-beta.vercel.app/login
 
-
 <hr/>
 
 ## Features
@@ -42,6 +41,8 @@ O Projeto My Wallet foi desenvolvido para fornecer um aplicativo web que ajuda a
 <img style='margin: 2px;' src='https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white' alt='Styled-Components'/>
 </p>
 
+<hr/>
+
 ## Funcionamento:
 
 Para baixar e configurar o projeto, siga estas etapas:
@@ -60,6 +61,6 @@ Para baixar e configurar o projeto, siga estas etapas:
 
 Nota: Este projeto requer que o MongoDB esteja instalado e em execução. Se você não o tiver instalado, siga as instruções no site (https://www.mongodb.com/try/download/community).
 
-<hr/>
+
   
 
